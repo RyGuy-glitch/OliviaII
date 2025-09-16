@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 class OliviaVWAPScalp:
-    def __init__(self, symbols=["MNQ", "MES", "MCL", "US50"], size=1, vwap_window=20, stop_loss=8, take_profit=16):
+    def __init__(self, symbols=["MNQ", "MES", "MYM", "US50"], size=1, vwap_window=20, stop_loss=8, take_profit=16):
         self.symbols = symbols
         self.size = size
         self.vwap_window = vwap_window
@@ -31,3 +31,4 @@ class OliviaVWAPScalp:
                       "stop_loss": self.stop_loss, "take_profit": self.take_profit}
 
         return signal
+
