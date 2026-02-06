@@ -1,1 +1,0 @@
-# DXTrade adapter package

@@ -1,1 +1,0 @@
-# cTrader adapter package
